@@ -1,0 +1,40 @@
+.course-table-session{
+  padding:2rem 0;
+  background-color:red;
+}
+.course-table th, .course-table td{
+  padding:1rem;
+}
+.course-table th{
+  color:gold;
+  background-color:black;
+}
+.course-table tr:nth-child(even){
+  background-color:skyblue;
+}
+.course-table tr:nth-child(odd){
+  background-color:red;
+}
+.course-table tr{
+  transition:transform 300ms;
+}
+.course-table-content{
+  max-width:500px;
+  text-align:center;
+  
+}
+.course-table tr:not(:first-child):hover{
+  transform:scale(1.02);
+}
+.course-table{
+  width:100%;
+  border-collapse:collapse;
+  filter:drop-shadow(-20px -10px 40px);
+}
+.course-table tr a{
+  color:green;
+  text-decoration:none;
+  background-color:black;
+  padding:5px 10px;
+  border-radius:10px;
+}
